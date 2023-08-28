@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JAINISH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="main"> 
+
+ <center><input type="text"  id="input01" placeholder="add color" onchange="color()"></center> 
+
+  <script>
+    function color(){
+      var colorName = document.getElementById("input01").value
+      console.log(colorName);
+      document.getElementById('main').style.backgroundColor=colorName;
+    }
+  </script>
+</body>
+</html>
