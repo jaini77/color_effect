@@ -1,10 +1,13 @@
 #input01{
+    color:rgb(10, 10, 10);
     padding: 20px;
     margin-top:20%;
     border-radius: 20px;
 }
 #input01:hover{
     background-color: rgb(236, 236, 236);
-    transform:scale(1.01);
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.9);
+    
+    
+    float:right;
+
 }
